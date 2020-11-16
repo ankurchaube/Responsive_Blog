@@ -1,0 +1,32 @@
+.con-content{
+    height: 100vh;
+   
+    display: block;
+    
+    padding: 9px;
+   background-image: url(../img/2.jpeg);
+    color: rgb(10, 10, 10);
+    top: 0;
+    position: relative;
+    border-radius: 12px;
+    height: 80vh;
+    overflow: hidden;
+
+    
+}
+.con-content::after{
+    content: "";
+    background-image: url(../img/2.jpeg);
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+    position: absolute;
+    z-index: -1;
+  }
+
+  
+  .contract-form{
+ 
+ 
+  }
